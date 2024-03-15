@@ -1,0 +1,20 @@
+/* ----------- HEADER ------------- */
+
+header {
+  height: 60px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo-container img{
+  height: 28px;
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1184px) {}

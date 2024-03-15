@@ -1,0 +1,51 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark-pink: #ff5d5d;
+  --x-light-pink: #faf1ed;
+  --dark-grey: #333333;
+  --grey: #545454;
+  --light-grey: #e0e0e0;
+  --x-light-grey: #f2f2f2;
+  --medium-green: #35e1a1;
+  --dark-green: #04aa6c;
+  --lg-icon: 24px;
+  --med-icon: 22px;
+  --sm-icon: 20px;
+  --xsm-icon: 15px;
+  --xxsm-icon: 14px;
+  --trip-reg: "Trip Sans Reg", Arial, Helvetica, sans-serif;
+  --trip-med: "Trip Sans Med", Arial, Helvetica, sans-serif;
+  --trip-vf-original: "Trip Sans VF", var(--trip-med);
+  --georgia: Georgia, "Times New Roman", Times, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "TS-Reg";
+}
+
+.container {
+  max-width: 1135px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+

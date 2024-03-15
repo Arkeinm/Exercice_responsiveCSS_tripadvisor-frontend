@@ -1,0 +1,31 @@
+/* ----------- FOOTER ------------- */
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 156px;
+  background-color: var(--x-light-pink);
+  font-size: 14px;
+}
+
+.footer__logo-container {
+  width: 40px;
+  margin: 15px;
+}
+
+footer a {
+  color: black;
+  font-weight: 600;
+  font-style: bold;
+}
+
+
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1184px) {}

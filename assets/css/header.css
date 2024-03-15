@@ -7,10 +7,21 @@ header {
 .header__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.header__logo-container img{
+.header i {
+  z-index: 1;
+  font-size: var(--lg-icon);
+}
+
+.header__logo {
+  z-index: 1;
   height: 28px;
+}
+
+.header__nav__small-screen-size__market-icon {
+  padding: 8px 10px;
 }
 
 @media (min-width: 768px) {}

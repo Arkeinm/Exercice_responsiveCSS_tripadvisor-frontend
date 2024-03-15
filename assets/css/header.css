@@ -10,21 +10,40 @@ header {
   align-items: center;
 }
 
-.header i {
-  z-index: 1;
+header i {
   font-size: var(--lg-icon);
 }
 
 .header__logo {
-  z-index: 1;
   height: 28px;
 }
 
-.header__nav__small-screen-size__market-icon {
+.fa-cart-shopping {
   padding: 8px 10px;
 }
 
-@media (min-width: 768px) {}
+.items_middle-screen-size {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header__logo {
+    height: 40.41px;
+  }
+
+  .header__nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .items_small-screen-size {
+    display: none;
+    }
+
+  .items_middle-screen-size {
+    display: inherit;
+  }
+}
 
 @media (min-width: 1024px) {}
 

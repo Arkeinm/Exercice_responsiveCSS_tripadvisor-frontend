@@ -37,7 +37,7 @@ header i {
   justify-content: center;
 }
 
-.items_middle-screen-size {
+.items_medium-screen-size {
   display: none;
 }
 
@@ -64,7 +64,7 @@ header i {
     display: none;
     }
 
-  .items_middle-screen-size {
+  .items_medium-screen-size {
     display: inherit;
   }
 }

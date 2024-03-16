@@ -9,4 +9,6 @@ main {
 
 @media (min-width: 1024px) {}
 
-@media (min-width: 1184px) {}
+@media (min-width: 1184px) {
+  /* huge */
+}

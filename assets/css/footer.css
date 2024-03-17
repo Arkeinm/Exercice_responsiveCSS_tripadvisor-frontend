@@ -4,6 +4,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 156px;
   background-color: var(--x-light-pink);
   font-size: 14px;

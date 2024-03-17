@@ -27,9 +27,9 @@
 }
 
 body {
+  font-family: "TS-Reg";
   font-size: 16px;
   line-height: 20px;
-  font-family: "TS-Reg";
 }
 
 .container {
@@ -40,7 +40,25 @@ body {
 }
 
 a {
+  font-weight: 700;
   text-decoration: none;
+  color: var(--black);
+}
+
+i {
+  font-size: var(--lg-icon);
+}
+
+h1,
+h2 {
+  font-family: var(--trip-vf-original);
+}
+
+h1 {
+  padding-top: 20px;
+  font-size: 32px;
+  letter-spacing: 1.1px;
+  line-height: 70px;
 }
 
 img {

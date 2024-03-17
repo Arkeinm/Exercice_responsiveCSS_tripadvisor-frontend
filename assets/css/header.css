@@ -1,17 +1,16 @@
 /* ----------- HEADER ------------- */
 
 header {
+  position: sticky;
+  top: 0px;
   height: 60px;
+  background-color: var(--white);
 }
 
 .header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-header i {
-  font-size: var(--lg-icon);
 }
 
 .header__nav {

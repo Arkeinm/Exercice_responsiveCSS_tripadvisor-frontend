@@ -1,9 +1,5 @@
 /* ----------- MAIN ------------- */
 
-main {
-  /* height: 2000px; */
-}
-
 .main__container h1 span {
   color: var(--dark-pink);
 }

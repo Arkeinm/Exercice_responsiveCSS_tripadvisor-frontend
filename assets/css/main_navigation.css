@@ -1,10 +1,10 @@
 /* ----------- MAIN ------------- */
 
 main {
-  height: 2000px;
+  /* height: 2000px; */
 }
 
-.main__container h1 span{
+.main__container h1 span {
   color: var(--dark-pink);
 }
 
@@ -37,12 +37,16 @@ main {
   margin-left: 20px;
 }
 
-.main__navigation__items span{
+.main__navigation__items span {
   margin-right: 10px;
 }
 
 .main__section-pictures {
   height: 275px;
+}
+
+.navigation_medium-screen-size {
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -58,8 +62,17 @@ main {
   .main__navigation__items:first-child {
     margin-left: 0;
   }
+
+  .navigation_medium-screen-size {
+    display: inherit;
+  }
 }
 
 @media (min-width: 1184px) {
-  /* huge */
+  .main__navigation__items {
+    width: calc((100% - 50px)/ 6);
+  }
+  .navigation_not-huge-screen-size {
+    display: none;
+  }
 }

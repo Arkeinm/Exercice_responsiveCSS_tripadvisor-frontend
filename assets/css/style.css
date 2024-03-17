@@ -3,7 +3,9 @@
 @import url("./font.css");
 @import url("./global.css");
 @import url("./header.css");
-@import url("./main.css");
+@import url("./main_navigation.css");
+@import url("./main_pictures.css");
+@import url("./main_description.css");
 @import url("./footer.css");
 
 

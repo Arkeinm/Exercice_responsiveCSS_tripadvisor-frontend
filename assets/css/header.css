@@ -36,11 +36,11 @@ header {
   justify-content: center;
 }
 
-.items_medium-screen-size {
+.header_medium-screen-size {
   display: none;
 }
 
-.items_large-screen-size {
+.header_large-screen-size {
   display: none;
 }
 
@@ -59,17 +59,17 @@ header {
     height: 40.41px;
   }
 
-  .items_small-screen-size {
+  .header_small-screen-size {
     display: none;
     }
 
-  .items_medium-screen-size {
+  .header_medium-screen-size {
     display: inherit;
   }
 }
 
 @media (min-width: 1024px) {
-  .items_large-screen-size {
+  .header_large-screen-size {
       display: inherit;
     }
 }

@@ -41,6 +41,11 @@
   display: none;
 }
 
+.section-pictures__column-1:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
   .main__section-pictures {
     display: flex;
@@ -58,6 +63,12 @@
     flex-direction: column;
     flex: 1;
     width: 33.33%;
+  }
+
+  .column-2__image-1:hover,
+  .column-2__image-2:hover {
+    opacity: 0.8;
+    cursor: pointer;
   }
 
   .column-2__image-1 {

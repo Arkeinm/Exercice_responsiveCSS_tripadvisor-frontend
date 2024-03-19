@@ -61,9 +61,27 @@ h1 {
   line-height: 70px;
 }
 
+h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+
+button {
+  color: var(--white);
+  background-color: var(--black);
+}
+
 img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
